@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;500&display=swap');
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+body {
+    background-image: url("green-system-numbers-coding-wyqwm7kh25buozyt.gif");
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: -1; 
+}
+
+.container {
+    text-align: center;
+    padding: 20px; 
+}
+
+
+h1 {
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    font-weight: 500;
+    animation: fadeIn 2s ease-out; 
+    font-size: 20vh;
+}
+     
+.baton {
+    position: relative;
+    margin-top: 20px; 
+    top: 10vh;
+    background-color: #000000; 
+    color: rgb(0, 255, 0); 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 10vh; 
+    border-radius: 12px;
+    border: 3px solid rgba(0, 255, 0, 0.5); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.baton:hover {
+    background-color: #5eff00; 
+    transform: scale(1.5);
+    box-shadow: 0 6px 10px rgba(0, 255, 0, 0.7);
+    color: #000; 
+}
+

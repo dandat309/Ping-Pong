@@ -1,0 +1,43 @@
+    @import url('https://fonts.googleapis.com/css2?family=Sankofa+Display&display=swap');
+
+    body {
+        background: rgb(117,223,224);
+        background: linear-gradient(0deg, rgba(117,223,224,1) 41%, rgba(230,217,116,1) 68%);
+        display: flex;/* para centralizar vertical */
+        justify-content: center;/* para centralizar horizontal */
+        align-items: center;/* para centralizar tudo verticalmente */
+        height: 100vh; /*isso e para poder sempre ficar certinho na tela de qualquer monitor*/
+        margin: 0;/*para evitar que tenha espaços branco na pagina*/
+    }
+
+    canvas{
+        background-color: #7adf5c;
+        display: block;/*para ficar no meio da borda*/
+        padding: auto;
+        border-radius: 50px;/*para arrendondar as bordas do canvas*/ 
+        display: inline-block;
+    }
+
+    .container{
+        text-align: center;
+        border: 2px solid black;
+        background-color: black;
+        padding: 10px;
+        border-radius: 50px;
+    
+    }
+
+    .Titulo {
+        font-size: 20px;
+        font-family: "Sankofa Display", sans-serif;
+        color: antiquewhite;
+    }
+
+    .nome {
+        font-family: 'Abril Fatface', cursive;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 0%; /*para evitar que tenha espaços branco na borda*/
+    }
+
+
